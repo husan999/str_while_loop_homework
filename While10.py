@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a=0
+    i=0
+    while i<len(s):
+        if str(s[i]).isdigit():
+            if int(s[i])%2==1:
+                a+=int(s[i])
+        i+=1
+    return a
+print(main("23752"))
