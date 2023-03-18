@@ -14,4 +14,5 @@ def main(s):
                 a+=int(s[i])
         i+=1
     return a
+
 print(main("23752"))
